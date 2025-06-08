@@ -3,8 +3,6 @@ version: "3.8"
 services:
   senior:
     image: osolight/senior:v1
-    ports:
-      - "8081:80"
     environment:
       CLIENT_ID: "776871727439-01kn7cco73dm4kn7unlahoq01iqa3ol5.apps.googleusercontent.com"
       API_KEY: "AIzaSyB1MfDcrMt1zcDBEpbAKjp3b4GsfvrDe1E"
